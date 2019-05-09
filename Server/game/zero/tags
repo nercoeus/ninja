@@ -1,0 +1,256 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AddEventListener	zero_unity_demo-master/UnityDemo/Assets/Scripts/Notification/NotificationCenter.cs	/^    public void AddEventListener(NotificationType type, NotificationHandler listener)$/;"	m	class:NotificationCenter
+AddPlayer	zero_unity_demo-master/Server/game/world.go	/^func (w *World) AddPlayer(p *Player) {$/;"	f
+Awake	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/NetworkManager.cs	/^    void Awake()$/;"	m	class:NetworkManager	file:
+Awake	zero_unity_demo-master/UnityDemo/Assets/Scripts/Notification/NotificationCenter.cs	/^    void Awake()$/;"	m	class:NotificationCenter	file:
+BaseMsg	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BaseMsg.cs	/^    protected BaseMsg(MsgID Id)$/;"	m	class:BaseMsg
+BaseMsg	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BaseMsg.cs	/^public abstract class BaseMsg$/;"	c
+BindUserID	session.go	/^func (s *Session) BindUserID(uid string) {$/;"	f
+Broadcast	service.go	/^func (s *SocketService) Broadcast(msg *Message) {$/;"	f
+BroadcastJoin	zero_unity_demo-master/Server/game/define.go	/^const BroadcastJoin int32 = 5$/;"	c
+BroadcastJoin	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BroadcastJoin.cs	/^    public BroadcastJoin() : base(MsgID.Broadcast_Join)$/;"	m	class:BroadcastJoin
+BroadcastJoin	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BroadcastJoin.cs	/^public class BroadcastJoin : BaseMsg$/;"	c
+BroadcastLeave	zero_unity_demo-master/Server/game/define.go	/^const BroadcastLeave int32 = 6$/;"	c
+BroadcastLeave	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BroadcastLeave.cs	/^    public BroadcastLeave() : base(MsgID.Broadcast_Leave)$/;"	m	class:BroadcastLeave
+BroadcastLeave	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BroadcastLeave.cs	/^public class BroadcastLeave : BaseMsg$/;"	c
+BroadcastMove	zero_unity_demo-master/Server/game/define.go	/^const BroadcastMove int32 = 4$/;"	c
+BroadcastMove	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BroadcastMove.cs	/^    public BroadcastMove() : base(MsgID.Broadcast_Move)$/;"	m	class:BroadcastMove
+BroadcastMove	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BroadcastMove.cs	/^public class BroadcastMove : BaseMsg$/;"	c
+Broadcast_Join	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/MsgID.cs	/^    Broadcast_Join = 5,$/;"	e	enum:MsgID	file:
+Broadcast_Leave	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/MsgID.cs	/^    Broadcast_Leave = 6,$/;"	e	enum:MsgID	file:
+Broadcast_Move	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/MsgID.cs	/^    Broadcast_Move = 4,$/;"	e	enum:MsgID	file:
+CalcChecksum	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Message.cs	/^    private uint CalcChecksum(int msgID, byte[] data)$/;"	m	class:Message	file:
+Checksum	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Message.cs	/^    public uint Checksum { get; set; }$/;"	p	class:Message
+Close	conn.go	/^func (c *Conn) Close() {$/;"	f
+ComputeHash	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Message.cs	/^    private uint ComputeHash(byte[] bytesArray, int byteStart, int bytesToRead)$/;"	m	class:Message	file:
+Conn	conn.go	/^type Conn struct {$/;"	t
+Connect	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/GameSocket.cs	/^    public void Connect(string host, int port, TimeSpan timeout)$/;"	m	class:GameSocket
+Connect	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/NetworkManager.cs	/^    public void Connect()$/;"	m	class:NetworkManager
+CreateMapTile	zero_unity_demo-master/UnityDemo/Assets/Scripts/Game/GameMap.cs	/^    private GameObject CreateMapTile(int x , int y)$/;"	m	class:GameMap	file:
+CreatePlayer	zero_unity_demo-master/Server/game/player.go	/^func CreatePlayer(name string, s *zero.Session) *Player {$/;"	f
+CreatePlayer	zero_unity_demo-master/UnityDemo/Assets/Scripts/Game/GameManager.cs	/^    public GameObject CreatePlayer(float x, float y, string playerID, int type)$/;"	m	class:GameManager
+CreateWorld	zero_unity_demo-master/Server/game/world.go	/^func CreateWorld() *World {$/;"	f
+Data	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Message.cs	/^    public byte[] Data { get; set; }$/;"	p	class:Message
+Decode	codec.go	/^func Decode(data []byte) (*Message, error) {$/;"	f
+Encode	codec.go	/^func Encode(msg *Message) ([]byte, error) {$/;"	f
+FromData	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BaseMsg.cs	/^    public abstract void FromData(byte[] data);$/;"	m	class:BaseMsg
+FromData	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BroadcastJoin.cs	/^    public override void FromData(byte[] data)$/;"	m	class:BroadcastJoin
+FromData	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BroadcastLeave.cs	/^    public override void FromData(byte[] data)$/;"	m	class:BroadcastLeave
+FromData	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BroadcastMove.cs	/^    public override void FromData(byte[] data)$/;"	m	class:BroadcastMove
+FromData	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/RequestJoin.cs	/^    public override void FromData(byte[] data)$/;"	m	class:RequestJoin
+FromData	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/RequestMove.cs	/^    public override void FromData(byte[] data)$/;"	m	class:RequestMove
+FromData	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/ResponseJoin.cs	/^    public override void FromData(byte[] data)$/;"	m	class:ResponseJoin
+FromMessage	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BaseMsg.cs	/^    public void FromMessage(Message msg)$/;"	m	class:BaseMsg
+GameManager	zero_unity_demo-master/UnityDemo/Assets/Scripts/Game/GameManager.cs	/^public class GameManager : MonoBehaviour$/;"	c
+GameMap	zero_unity_demo-master/UnityDemo/Assets/Scripts/Game/GameMap.cs	/^public class GameMap : MonoBehaviour$/;"	c
+GameSocket	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/GameSocket.cs	/^    public GameSocket(NetworkEventDelegate onConnected, NetworkEventDelegate onDisonnected, NetworkEventDelegate onMessage)$/;"	m	class:GameSocket
+GameSocket	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/GameSocket.cs	/^public class GameSocket$/;"	c
+GetConn	session.go	/^func (s *Session) GetConn() *Conn {$/;"	f
+GetConnsCount	service.go	/^func (s *SocketService) GetConnsCount() int {$/;"	f
+GetData	message.go	/^func (msg *Message) GetData() []byte {$/;"	f
+GetID	message.go	/^func (msg *Message) GetID() int32 {$/;"	f
+GetName	conn.go	/^func (c *Conn) GetName() string {$/;"	f
+GetPlayer	zero_unity_demo-master/Server/game/world.go	/^func (w *World) GetPlayer(id string) *Player {$/;"	f
+GetPlayerList	zero_unity_demo-master/Server/game/world.go	/^func (w *World) GetPlayerList() []*Player {$/;"	f
+GetSessionID	session.go	/^func (s *Session) GetSessionID() string {$/;"	f
+GetSetting	session.go	/^func (s *Session) GetSetting(key string) interface{} {$/;"	f
+GetStatus	service.go	/^func (s *SocketService) GetStatus() int {$/;"	f
+GetUserID	session.go	/^func (s *Session) GetUserID() string {$/;"	f
+GetValue	zero_unity_demo-master/UnityDemo/Assets/Scripts/Notification/Notification.cs	/^    public T GetValue<T>()$/;"	m	class:NotificationArg
+HandleConnect	service_test.go	/^func HandleConnect(s *Session) {$/;"	f
+HandleConnect	zero_unity_demo-master/Server/game/processor.go	/^func HandleConnect(s *zero.Session) {$/;"	f
+HandleDisconnect	service_test.go	/^func HandleDisconnect(s *Session, err error) {$/;"	f
+HandleDisconnect	zero_unity_demo-master/Server/game/processor.go	/^func HandleDisconnect(s *zero.Session, err error) {$/;"	f
+HandleMessage	service_test.go	/^func HandleMessage(s *Session, msg *Message) {$/;"	f
+HandleMessage	zero_unity_demo-master/Server/game/processor.go	/^func HandleMessage(s *zero.Session, msg *zero.Message) {$/;"	f
+HandleMessage	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/NetworkManager.cs	/^    private void HandleMessage(Message msg)$/;"	m	class:NetworkManager	file:
+ID	zero_unity_demo-master/UnityDemo/Assets/Scripts/Game/Player.cs	/^    public string ID { get; set; }$/;"	p	class:Player
+Instance	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/NetworkManager.cs	/^    public static NetworkManager Instance = null;$/;"	f	class:NetworkManager
+Instance	zero_unity_demo-master/UnityDemo/Assets/Scripts/Notification/NotificationCenter.cs	/^    public static NotificationCenter Instance = null;$/;"	f	class:NotificationCenter
+MapTile	zero_unity_demo-master/UnityDemo/Assets/Scripts/Game/MapTile.cs	/^public class MapTile : MonoBehaviour, IPointerClickHandler$/;"	c
+Message	message.go	/^type Message struct {$/;"	t
+Message	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Message.cs	/^    public Message()$/;"	m	class:Message
+Message	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Message.cs	/^    public Message(int playerID, byte[] data)$/;"	m	class:Message
+Message	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Message.cs	/^public class Message$/;"	c
+MessageID	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Message.cs	/^    public int MessageID { get; set; }$/;"	p	class:Message
+Move	zero_unity_demo-master/UnityDemo/Assets/Scripts/Game/Player.cs	/^    private IEnumerator Move(Vector3 target_pos)$/;"	m	class:Player	file:
+MoveTo	zero_unity_demo-master/UnityDemo/Assets/Scripts/Game/Player.cs	/^    public void MoveTo(float x, float y)$/;"	m	class:Player
+MsgHeartbeat	def.go	/^	MsgHeartbeat = iota$/;"	c
+MsgID	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/MsgID.cs	/^﻿public enum MsgID$/;"	g
+Name	zero_unity_demo-master/UnityDemo/Assets/Scripts/Game/Player.cs	/^    public Text Name;$/;"	f	class:Player
+NetworkEventDelegate	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/GameSocket.cs	/^public delegate void NetworkEventDelegate(Message msg);$/;"	m
+NetworkManager	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/NetworkManager.cs	/^public class NetworkManager : MonoBehaviour$/;"	c
+Network_OnBroadcastJoin	zero_unity_demo-master/UnityDemo/Assets/Scripts/Notification/NotificationType.cs	/^    Network_OnBroadcastJoin,$/;"	e	enum:NotificationType	file:
+Network_OnBroadcastLeave	zero_unity_demo-master/UnityDemo/Assets/Scripts/Notification/NotificationType.cs	/^    Network_OnBroadcastLeave,$/;"	e	enum:NotificationType	file:
+Network_OnBroadcastMove	zero_unity_demo-master/UnityDemo/Assets/Scripts/Notification/NotificationType.cs	/^    Network_OnBroadcastMove,$/;"	e	enum:NotificationType	file:
+Network_OnConnected	zero_unity_demo-master/UnityDemo/Assets/Scripts/Notification/NotificationType.cs	/^    Network_OnConnected,$/;"	e	enum:NotificationType	file:
+Network_OnDisconnected	zero_unity_demo-master/UnityDemo/Assets/Scripts/Notification/NotificationType.cs	/^    Network_OnDisconnected,$/;"	e	enum:NotificationType	file:
+Network_OnResponseJoin	zero_unity_demo-master/UnityDemo/Assets/Scripts/Notification/NotificationType.cs	/^    Network_OnResponseJoin,$/;"	e	enum:NotificationType	file:
+NewClientConnect	service_test.go	/^func NewClientConnect() {$/;"	f
+NewConn	conn.go	/^func NewConn(c net.Conn, hbInterval time.Duration, hbTimeout time.Duration) *Conn {$/;"	f
+NewMessage	message.go	/^func NewMessage(msgID int32, data []byte) *Message {$/;"	f
+NewSession	session.go	/^func NewSession(conn *Conn) *Session {$/;"	f
+NewSocketService	service.go	/^func NewSocketService(laddr string) (*SocketService, error) {$/;"	f
+Notification	zero_unity_demo-master/UnityDemo/Assets/Scripts/Notification/Notification.cs	/^    public Notification(string _type, NotificationArg _arg)$/;"	m	class:Notification
+Notification	zero_unity_demo-master/UnityDemo/Assets/Scripts/Notification/Notification.cs	/^public class Notification$/;"	c
+NotificationArg	zero_unity_demo-master/UnityDemo/Assets/Scripts/Notification/Notification.cs	/^    public NotificationArg(object v)$/;"	m	class:NotificationArg
+NotificationArg	zero_unity_demo-master/UnityDemo/Assets/Scripts/Notification/Notification.cs	/^public class NotificationArg$/;"	c
+NotificationCenter	zero_unity_demo-master/UnityDemo/Assets/Scripts/Notification/NotificationCenter.cs	/^public class NotificationCenter : MonoBehaviour$/;"	c
+NotificationHandler	zero_unity_demo-master/UnityDemo/Assets/Scripts/Notification/Notification.cs	/^public delegate void NotificationHandler(NotificationArg agr);$/;"	m
+NotificationType	zero_unity_demo-master/UnityDemo/Assets/Scripts/Notification/NotificationType.cs	/^﻿public enum NotificationType$/;"	g
+OnBroadcastJoin	zero_unity_demo-master/UnityDemo/Assets/Scripts/Game/GameManager.cs	/^    void OnBroadcastJoin(NotificationArg arg)$/;"	m	class:GameManager	file:
+OnBroadcastLeave	zero_unity_demo-master/UnityDemo/Assets/Scripts/Game/GameManager.cs	/^    void OnBroadcastLeave(NotificationArg arg)$/;"	m	class:GameManager	file:
+OnBroadcastMove	zero_unity_demo-master/UnityDemo/Assets/Scripts/Game/GameManager.cs	/^    void OnBroadcastMove(NotificationArg arg)$/;"	m	class:GameManager	file:
+OnConnected	zero_unity_demo-master/UnityDemo/Assets/Scripts/Game/GameManager.cs	/^    void OnConnected(NotificationArg arg)$/;"	m	class:GameManager	file:
+OnConnected	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/GameSocket.cs	/^    private void OnConnected(IAsyncResult result)$/;"	m	class:GameSocket	file:
+OnConnected	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/NetworkManager.cs	/^    public void OnConnected(Message msg)$/;"	m	class:NetworkManager
+OnDestroy	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/NetworkManager.cs	/^    private void OnDestroy()$/;"	m	class:NetworkManager	file:
+OnDisconnect	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/NetworkManager.cs	/^    public void OnDisconnect(Message msg)$/;"	m	class:NetworkManager
+OnDisconnected	zero_unity_demo-master/UnityDemo/Assets/Scripts/Game/GameManager.cs	/^    void OnDisconnected(NotificationArg arg)$/;"	m	class:GameManager	file:
+OnMessage	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/NetworkManager.cs	/^    public void OnMessage(Message msg)$/;"	m	class:NetworkManager
+OnPointerClick	zero_unity_demo-master/UnityDemo/Assets/Scripts/Game/MapTile.cs	/^    public void OnPointerClick(PointerEventData eventData)$/;"	m	class:MapTile
+OnResponseJoin	zero_unity_demo-master/UnityDemo/Assets/Scripts/Game/GameManager.cs	/^    void OnResponseJoin(NotificationArg arg)$/;"	m	class:GameManager	file:
+OnTouchMap	zero_unity_demo-master/UnityDemo/Assets/Scripts/Game/GameManager.cs	/^    void OnTouchMap(NotificationArg arg)$/;"	m	class:GameManager	file:
+Operate_MapPosition	zero_unity_demo-master/UnityDemo/Assets/Scripts/Notification/NotificationType.cs	/^    Operate_MapPosition,$/;"	e	enum:NotificationType	file:
+Player	zero_unity_demo-master/Server/game/player.go	/^type Player struct {$/;"	t
+Player	zero_unity_demo-master/UnityDemo/Assets/Scripts/Game/Player.cs	/^public class Player : MonoBehaviour$/;"	c
+PlayerData	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/ResponseJoin.cs	/^public class PlayerData$/;"	c
+PushEvent	zero_unity_demo-master/UnityDemo/Assets/Scripts/Notification/NotificationCenter.cs	/^    public void PushEvent(NotificationType type, object arg)$/;"	m	class:NotificationCenter
+PushMessage	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/GameSocket.cs	/^    public void PushMessage(Message msg)$/;"	m	class:GameSocket
+ReadMessage	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/GameSocket.cs	/^    private void ReadMessage(List<byte> list)$/;"	m	class:GameSocket	file:
+ReceiveMessage	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/GameSocket.cs	/^    private void ReceiveMessage()$/;"	m	class:GameSocket	file:
+RegConnectHandler	service.go	/^func (s *SocketService) RegConnectHandler(handler func(*Session)) {$/;"	f
+RegDisconnectHandler	service.go	/^func (s *SocketService) RegDisconnectHandler(handler func(*Session, error)) {$/;"	f
+RegMessageHandler	service.go	/^func (s *SocketService) RegMessageHandler(handler func(*Session, *Message)) {$/;"	f
+RegisterEvents	zero_unity_demo-master/UnityDemo/Assets/Scripts/Game/GameManager.cs	/^    void RegisterEvents()$/;"	m	class:GameManager	file:
+RemovePlayer	zero_unity_demo-master/Server/game/world.go	/^func (w *World) RemovePlayer(id string) {$/;"	f
+RequestJoin	zero_unity_demo-master/Server/game/define.go	/^const RequestJoin int32 = 1$/;"	c
+RequestJoin	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/RequestJoin.cs	/^    public RequestJoin() : base(MsgID.Request_Join)$/;"	m	class:RequestJoin
+RequestJoin	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/RequestJoin.cs	/^public class RequestJoin : BaseMsg$/;"	c
+RequestMove	zero_unity_demo-master/Server/game/define.go	/^const RequestMove int32 = 3$/;"	c
+RequestMove	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/RequestMove.cs	/^    public RequestMove() : base(MsgID.Request_Move)$/;"	m	class:RequestMove
+RequestMove	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/RequestMove.cs	/^public class RequestMove : BaseMsg$/;"	c
+Request_Join	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/MsgID.cs	/^    Request_Join = 1,$/;"	e	enum:MsgID	file:
+Request_Move	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/MsgID.cs	/^    Request_Move = 3,$/;"	e	enum:MsgID	file:
+Reset	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/GameSocket.cs	/^    public void Reset()$/;"	m	class:GameSocket
+ResponseJoin	zero_unity_demo-master/Server/game/define.go	/^const ResponseJoin int32 = 2$/;"	c
+ResponseJoin	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/ResponseJoin.cs	/^    public ResponseJoin() : base(MsgID.Response_Join)$/;"	m	class:ResponseJoin
+ResponseJoin	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/ResponseJoin.cs	/^public class ResponseJoin : BaseMsg$/;"	c
+Response_Join	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/MsgID.cs	/^    Response_Join = 2,$/;"	e	enum:MsgID	file:
+STInited	def.go	/^	STInited$/;"	c
+STRunning	def.go	/^	STRunning$/;"	c
+STStop	def.go	/^	STStop$/;"	c
+STUnknown	def.go	/^	STUnknown = iota$/;"	c
+SendJoin	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/NetworkManager.cs	/^    public void SendJoin()$/;"	m	class:NetworkManager
+SendMessage	conn.go	/^func (c *Conn) SendMessage(msg *Message) error {$/;"	f
+SendMessage	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/GameSocket.cs	/^    private void SendMessage()$/;"	m	class:GameSocket	file:
+SendMessage	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/NetworkManager.cs	/^    public void SendMessage(Message msg)$/;"	m	class:NetworkManager
+SendMove	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/NetworkManager.cs	/^    public void SendMove(int x, int y, string playerID)$/;"	m	class:NetworkManager
+Serv	service.go	/^func (s *SocketService) Serv() {$/;"	f
+Session	session.go	/^type Session struct {$/;"	t
+SetConn	session.go	/^func (s *Session) SetConn(conn *Conn) {$/;"	f
+SetHeartBeat	service.go	/^func (s *SocketService) SetHeartBeat(hbInterval time.Duration, hbTimeout time.Duration) error {$/;"	f
+SetName	zero_unity_demo-master/UnityDemo/Assets/Scripts/Game/Player.cs	/^    public void SetName(string name)$/;"	m	class:Player
+SetSetting	session.go	/^func (s *Session) SetSetting(key string, value interface{}) {$/;"	f
+SetType	zero_unity_demo-master/UnityDemo/Assets/Scripts/Game/Player.cs	/^    public void SetType(int type)$/;"	m	class:Player
+Size	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Message.cs	/^    public int Size { get; set; }$/;"	p	class:Message
+SocketService	service.go	/^type SocketService struct {$/;"	t
+Start	zero_unity_demo-master/UnityDemo/Assets/Scripts/Game/GameManager.cs	/^    void Start()$/;"	m	class:GameManager	file:
+Start	zero_unity_demo-master/UnityDemo/Assets/Scripts/Game/GameMap.cs	/^    void Start()$/;"	m	class:GameMap	file:
+StartReciveThread	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/GameSocket.cs	/^    private void StartReciveThread()$/;"	m	class:GameSocket	file:
+StartSendThread	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/GameSocket.cs	/^    private void StartSendThread()$/;"	m	class:GameSocket	file:
+Stop	service.go	/^func (s *SocketService) Stop(reason string) {$/;"	f
+String	message.go	/^func (msg *Message) String() string {$/;"	f
+TestCodec	codec_test.go	/^func TestCodec(t *testing.T) {$/;"	f
+TestService	service_test.go	/^func TestService(t *testing.T) {$/;"	f
+ToArray	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Message.cs	/^    public byte[] ToArray()$/;"	m	class:Message
+ToData	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BaseMsg.cs	/^    public abstract byte[] ToData();$/;"	m	class:BaseMsg
+ToData	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BroadcastJoin.cs	/^    public override byte[] ToData()$/;"	m	class:BroadcastJoin
+ToData	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BroadcastLeave.cs	/^    public override byte[] ToData()$/;"	m	class:BroadcastLeave
+ToData	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BroadcastMove.cs	/^    public override byte[] ToData()$/;"	m	class:BroadcastMove
+ToData	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/RequestJoin.cs	/^    public override byte[] ToData()$/;"	m	class:RequestJoin
+ToData	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/RequestMove.cs	/^    public override byte[] ToData()$/;"	m	class:RequestMove
+ToData	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/ResponseJoin.cs	/^    public override byte[] ToData()$/;"	m	class:ResponseJoin
+ToJSON	zero_unity_demo-master/Server/game/player.go	/^func (p *Player) ToJSON() []byte {$/;"	f
+ToMessage	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BaseMsg.cs	/^    public Message ToMessage()$/;"	m	class:BaseMsg
+ToString	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Message.cs	/^    public override string ToString()$/;"	m	class:Message
+Unicast	service.go	/^func (s *SocketService) Unicast(sid string, msg *Message) {$/;"	f
+Update	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/NetworkManager.cs	/^    void Update()$/;"	m	class:NetworkManager	file:
+Update	zero_unity_demo-master/UnityDemo/Assets/Scripts/UI/WorldUI.cs	/^    void Update()$/;"	m	class:WorldUI	file:
+Verify	message.go	/^func (msg *Message) Verify() bool {$/;"	f
+Verify	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Message.cs	/^    public bool Verify()$/;"	m	class:Message
+World	zero_unity_demo-master/Server/game/world.go	/^type World struct {$/;"	t
+WorldUI	zero_unity_demo-master/UnityDemo/Assets/Scripts/UI/WorldUI.cs	/^public class WorldUI : MonoBehaviour$/;"	c
+acceptHandler	service.go	/^func (s *SocketService) acceptHandler(ctx context.Context) {$/;"	f
+arg	zero_unity_demo-master/UnityDemo/Assets/Scripts/Notification/Notification.cs	/^    public NotificationArg arg;$/;"	f	class:Notification
+calcChecksum	message.go	/^func (msg *Message) calcChecksum() uint32 {$/;"	f
+connectHandler	service.go	/^func (s *SocketService) connectHandler(ctx context.Context, c net.Conn) {$/;"	f
+game	zero_unity_demo-master/Server/game/define.go	/^package game$/;"	p
+game	zero_unity_demo-master/Server/game/player.go	/^package game$/;"	p
+game	zero_unity_demo-master/Server/game/processor.go	/^package game$/;"	p
+game	zero_unity_demo-master/Server/game/world.go	/^package game$/;"	p
+handlers	zero_unity_demo-master/UnityDemo/Assets/Scripts/Notification/NotificationCenter.cs	/^    private Dictionary<NotificationType, NotificationHandler> handlers = new Dictionary<NotificationType, NotificationHandler>();$/;"	f	class:NotificationCenter	file:
+hero	zero_unity_demo-master/UnityDemo/Assets/Scripts/Game/GameManager.cs	/^    public GameObject hero;$/;"	f	class:GameManager
+host	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/NetworkManager.cs	/^    public string host = "127.0.0.1";$/;"	f	class:NetworkManager
+init	zero_unity_demo-master/Server/game/world.go	/^func init() {$/;"	f
+length	zero_unity_demo-master/UnityDemo/Assets/Scripts/Game/GameMap.cs	/^    public int length = 10;$/;"	f	class:GameMap
+list	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/ResponseJoin.cs	/^    public List<PlayerData> list;$/;"	f	class:ResponseJoin
+m_gameSocket	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/NetworkManager.cs	/^    private GameSocket m_gameSocket;$/;"	f	class:NetworkManager	file:
+m_isConnected	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/GameSocket.cs	/^    private bool m_isConnected;$/;"	f	class:GameSocket	file:
+m_lock	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/GameSocket.cs	/^    private object m_lock = new System.Object();$/;"	f	class:GameSocket	file:
+m_msgQueue	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/NetworkManager.cs	/^    public Queue<Message> m_msgQueue = new Queue<Message>();$/;"	f	class:NetworkManager
+m_sendQueue	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/GameSocket.cs	/^    private Queue<Message> m_sendQueue = new Queue<Message>();$/;"	f	class:GameSocket	file:
+m_socket	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/GameSocket.cs	/^    private Socket m_socket;$/;"	f	class:GameSocket	file:
+main	zero_unity_demo-master/Server/app.go	/^func main() {$/;"	f
+main	zero_unity_demo-master/Server/app.go	/^package main$/;"	p
+msgID	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BaseMsg.cs	/^    public MsgID msgID { get; private set; }$/;"	p	class:BaseMsg
+name	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BroadcastJoin.cs	/^    public string name;$/;"	f	class:BroadcastJoin
+name	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BroadcastLeave.cs	/^    public string name;$/;"	f	class:BroadcastLeave
+name	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/ResponseJoin.cs	/^    public string name;$/;"	f	class:PlayerData
+onConnected	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/GameSocket.cs	/^    private readonly NetworkEventDelegate onConnected;$/;"	f	class:GameSocket	file:
+onDisonnected	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/GameSocket.cs	/^    private readonly NetworkEventDelegate onDisonnected;$/;"	f	class:GameSocket	file:
+onMessage	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/GameSocket.cs	/^    private readonly NetworkEventDelegate onMessage;$/;"	f	class:GameSocket	file:
+playerID	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BroadcastJoin.cs	/^    public string playerID;$/;"	f	class:BroadcastJoin
+playerID	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BroadcastLeave.cs	/^    public string playerID;$/;"	f	class:BroadcastLeave
+playerID	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BroadcastMove.cs	/^    public string playerID;$/;"	f	class:BroadcastMove
+playerID	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/RequestMove.cs	/^    public string playerID;$/;"	f	class:RequestMove
+playerID	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/ResponseJoin.cs	/^    public string playerID;$/;"	f	class:PlayerData
+playerPrefab	zero_unity_demo-master/UnityDemo/Assets/Scripts/Game/GameManager.cs	/^    public GameObject playerPrefab;$/;"	f	class:GameManager
+players	zero_unity_demo-master/UnityDemo/Assets/Scripts/Game/GameManager.cs	/^    private Dictionary<string, GameObject> players = new Dictionary<string, GameObject>();$/;"	f	class:GameManager	file:
+port	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/NetworkManager.cs	/^    public int port = 18787;$/;"	f	class:NetworkManager
+readCoroutine	conn.go	/^func (c *Conn) readCoroutine(ctx context.Context) {$/;"	f
+self	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/ResponseJoin.cs	/^    public PlayerData self;$/;"	f	class:ResponseJoin
+t_recive	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/GameSocket.cs	/^    private Thread t_recive;$/;"	f	class:GameSocket	file:
+t_send	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/GameSocket.cs	/^    private Thread t_send;$/;"	f	class:GameSocket	file:
+thisLock	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/NetworkManager.cs	/^    private object thisLock = new object();$/;"	f	class:NetworkManager	file:
+thisLock	zero_unity_demo-master/UnityDemo/Assets/Scripts/Notification/NotificationCenter.cs	/^    private object thisLock = new object();$/;"	f	class:NotificationCenter	file:
+type	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BroadcastJoin.cs	/^    public int type;$/;"	f	class:BroadcastJoin
+type	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/ResponseJoin.cs	/^    public int type;$/;"	f	class:PlayerData
+type	zero_unity_demo-master/UnityDemo/Assets/Scripts/Notification/Notification.cs	/^    public string type;$/;"	f	class:Notification
+value	zero_unity_demo-master/UnityDemo/Assets/Scripts/Notification/Notification.cs	/^    private object value;$/;"	f	class:NotificationArg	file:
+width	zero_unity_demo-master/UnityDemo/Assets/Scripts/Game/GameMap.cs	/^    public int width = 10;$/;"	f	class:GameMap
+world	zero_unity_demo-master/Server/game/world.go	/^var world *World$/;"	v
+writeCoroutine	conn.go	/^func (c *Conn) writeCoroutine(ctx context.Context) {$/;"	f
+x	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BroadcastJoin.cs	/^    public int x;$/;"	f	class:BroadcastJoin
+x	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BroadcastLeave.cs	/^    public int x;$/;"	f	class:BroadcastLeave
+x	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BroadcastMove.cs	/^    public int x;$/;"	f	class:BroadcastMove
+x	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/RequestMove.cs	/^    public int x;$/;"	f	class:RequestMove
+x	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/ResponseJoin.cs	/^    public float x;$/;"	f	class:PlayerData
+y	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BroadcastJoin.cs	/^    public int y;$/;"	f	class:BroadcastJoin
+y	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BroadcastLeave.cs	/^    public int y;$/;"	f	class:BroadcastLeave
+y	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/BroadcastMove.cs	/^    public int y;$/;"	f	class:BroadcastMove
+y	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/RequestMove.cs	/^    public int y;$/;"	f	class:RequestMove
+y	zero_unity_demo-master/UnityDemo/Assets/Scripts/Network/Msg/ResponseJoin.cs	/^    public float y;$/;"	f	class:PlayerData
+zero	codec.go	/^package zero$/;"	p
+zero	codec_test.go	/^package zero$/;"	p
+zero	conn.go	/^package zero$/;"	p
+zero	def.go	/^package zero$/;"	p
+zero	message.go	/^package zero$/;"	p
+zero	service.go	/^package zero$/;"	p
+zero	service_test.go	/^package zero$/;"	p
+zero	session.go	/^package zero$/;"	p

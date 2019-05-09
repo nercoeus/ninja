@@ -1,0 +1,238 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AddPlayer	world.go	/^func (w *World) AddPlayer(p *Player) {$/;"	f
+BenchmarkFromBytes	zero/go.uuid/codec_test.go	/^func (s *codecTestSuite) BenchmarkFromBytes(c *C) {$/;"	f
+BenchmarkFromString	zero/go.uuid/codec_test.go	/^func (s *codecTestSuite) BenchmarkFromString(c *C) {$/;"	f
+BenchmarkFromStringUrn	zero/go.uuid/codec_test.go	/^func (s *codecTestSuite) BenchmarkFromStringUrn(c *C) {$/;"	f
+BenchmarkFromStringWithBrackets	zero/go.uuid/codec_test.go	/^func (s *codecTestSuite) BenchmarkFromStringWithBrackets(c *C) {$/;"	f
+BenchmarkMarshalBinary	zero/go.uuid/codec_test.go	/^func (s *codecTestSuite) BenchmarkMarshalBinary(c *C) {$/;"	f
+BenchmarkMarshalText	zero/go.uuid/codec_test.go	/^func (s *codecTestSuite) BenchmarkMarshalText(c *C) {$/;"	f
+BenchmarkMarshalToString	zero/go.uuid/codec_test.go	/^func (s *codecTestSuite) BenchmarkMarshalToString(c *C) {$/;"	f
+BenchmarkNewV1	zero/go.uuid/generator_test.go	/^func (s *genTestSuite) BenchmarkNewV1(c *C) {$/;"	f
+BenchmarkNewV2	zero/go.uuid/generator_test.go	/^func (s *genTestSuite) BenchmarkNewV2(c *C) {$/;"	f
+BenchmarkNewV3	zero/go.uuid/generator_test.go	/^func (s *genTestSuite) BenchmarkNewV3(c *C) {$/;"	f
+BenchmarkNewV4	zero/go.uuid/generator_test.go	/^func (s *genTestSuite) BenchmarkNewV4(c *C) {$/;"	f
+BenchmarkNewV5	zero/go.uuid/generator_test.go	/^func (s *genTestSuite) BenchmarkNewV5(c *C) {$/;"	f
+BenchmarkUnmarshalText	zero/go.uuid/codec_test.go	/^func (s *codecTestSuite) BenchmarkUnmarshalText(c *C) {$/;"	f
+BindUserID	zero/session.go	/^func (s *Session) BindUserID(uid string) {$/;"	f
+Broadcast	zero/service.go	/^func (s *SocketService) Broadcast(msg *Message) {$/;"	f
+BroadcastDarts	define.go	/^const BroadcastDarts int32 = 10$/;"	c
+BroadcastDisappear	define.go	/^const BroadcastDisappear int32 = 8$/;"	c
+BroadcastJoin	define.go	/^const BroadcastJoin int32 = 5$/;"	c
+BroadcastLeave	define.go	/^const BroadcastLeave int32 = 6$/;"	c
+BroadcastMove	define.go	/^const BroadcastMove int32 = 4$/;"	c
+Bytes	zero/go.uuid/uuid.go	/^func (u UUID) Bytes() []byte {$/;"	f
+Close	zero/conn.go	/^func (c *Conn) Close() {$/;"	f
+Conn	zero/conn.go	/^type Conn struct {$/;"	t
+CreatePlayer	player.go	/^func CreatePlayer(name string, s *zero.Session) *Player {$/;"	f
+CreateWorld	world.go	/^func CreateWorld() *World {$/;"	f
+Decode	zero/codec.go	/^func Decode(data []byte) (*Message, error) {$/;"	f
+DomainGroup	zero/go.uuid/uuid.go	/^	DomainGroup$/;"	c
+DomainOrg	zero/go.uuid/uuid.go	/^	DomainOrg$/;"	c
+DomainPerson	zero/go.uuid/uuid.go	/^	DomainPerson = iota$/;"	c
+Encode	zero/codec.go	/^func Encode(msg *Message) ([]byte, error) {$/;"	f
+Equal	zero/go.uuid/uuid.go	/^func Equal(u1 UUID, u2 UUID) bool {$/;"	f
+FromBytes	zero/go.uuid/codec.go	/^func FromBytes(input []byte) (u UUID, err error) {$/;"	f
+FromBytesOrNil	zero/go.uuid/codec.go	/^func FromBytesOrNil(input []byte) UUID {$/;"	f
+FromString	zero/go.uuid/codec.go	/^func FromString(input string) (u UUID, err error) {$/;"	f
+FromStringOrNil	zero/go.uuid/codec.go	/^func FromStringOrNil(input string) UUID {$/;"	f
+Generator	zero/go.uuid/generator.go	/^type Generator interface {$/;"	t
+GetConn	zero/session.go	/^func (s *Session) GetConn() *Conn {$/;"	f
+GetConnsCount	zero/service.go	/^func (s *SocketService) GetConnsCount() int {$/;"	f
+GetData	zero/message.go	/^func (msg *Message) GetData() []byte {$/;"	f
+GetID	zero/message.go	/^func (msg *Message) GetID() int32 {$/;"	f
+GetName	zero/conn.go	/^func (c *Conn) GetName() string {$/;"	f
+GetPlayer	world.go	/^func (w *World) GetPlayer(id string) *Player {$/;"	f
+GetPlayerList	world.go	/^func (w *World) GetPlayerList() []*Player {$/;"	f
+GetSessionID	zero/session.go	/^func (s *Session) GetSessionID() string {$/;"	f
+GetSetting	zero/session.go	/^func (s *Session) GetSetting(key string) interface{} {$/;"	f
+GetStatus	zero/service.go	/^func (s *SocketService) GetStatus() int {$/;"	f
+GetUserID	zero/session.go	/^func (s *Session) GetUserID() string {$/;"	f
+HandleConnect	processor.go	/^func HandleConnect(s *zero.Session) {$/;"	f
+HandleConnect	zero/service_test.go	/^func HandleConnect(s *Session) {$/;"	f
+HandleDisconnect	processor.go	/^func HandleDisconnect(s *zero.Session, err error) {$/;"	f
+HandleDisconnect	zero/service_test.go	/^func HandleDisconnect(s *Session, err error) {$/;"	f
+HandleMessage	processor.go	/^func HandleMessage(s *zero.Session, msg *zero.Message) {$/;"	f
+HandleMessage	zero/service_test.go	/^func HandleMessage(s *Session, msg *Message) {$/;"	f
+MarshalBinary	zero/go.uuid/codec.go	/^func (u UUID) MarshalBinary() (data []byte, err error) {$/;"	f
+MarshalText	zero/go.uuid/codec.go	/^func (u UUID) MarshalText() (text []byte, err error) {$/;"	f
+Message	zero/message.go	/^type Message struct {$/;"	t
+MsgHeartbeat	zero/def.go	/^	MsgHeartbeat = iota$/;"	c
+Must	zero/go.uuid/uuid.go	/^func Must(u UUID, err error) UUID {$/;"	f
+NamespaceDNS	zero/go.uuid/uuid.go	/^	NamespaceDNS  = Must(FromString("6ba7b810-9dad-11d1-80b4-00c04fd430c8"))$/;"	v
+NamespaceOID	zero/go.uuid/uuid.go	/^	NamespaceOID  = Must(FromString("6ba7b812-9dad-11d1-80b4-00c04fd430c8"))$/;"	v
+NamespaceURL	zero/go.uuid/uuid.go	/^	NamespaceURL  = Must(FromString("6ba7b811-9dad-11d1-80b4-00c04fd430c8"))$/;"	v
+NamespaceX500	zero/go.uuid/uuid.go	/^	NamespaceX500 = Must(FromString("6ba7b814-9dad-11d1-80b4-00c04fd430c8"))$/;"	v
+NewClientConnect	zero/service_test.go	/^func NewClientConnect() {$/;"	f
+NewConn	zero/conn.go	/^func NewConn(c net.Conn, hbInterval time.Duration, hbTimeout time.Duration) *Conn {$/;"	f
+NewMessage	zero/message.go	/^func NewMessage(msgID int32, data []byte) *Message {$/;"	f
+NewSession	zero/session.go	/^func NewSession(conn *Conn) *Session {$/;"	f
+NewSocketService	zero/service.go	/^func NewSocketService(laddr string) (*SocketService, error) {$/;"	f
+NewV1	zero/go.uuid/generator.go	/^func (g *rfc4122Generator) NewV1() (UUID, error) {$/;"	f
+NewV1	zero/go.uuid/generator.go	/^func NewV1() (UUID, error) {$/;"	f
+NewV2	zero/go.uuid/generator.go	/^func (g *rfc4122Generator) NewV2(domain byte) (UUID, error) {$/;"	f
+NewV2	zero/go.uuid/generator.go	/^func NewV2(domain byte) (UUID, error) {$/;"	f
+NewV3	zero/go.uuid/generator.go	/^func (g *rfc4122Generator) NewV3(ns UUID, name string) UUID {$/;"	f
+NewV3	zero/go.uuid/generator.go	/^func NewV3(ns UUID, name string) UUID {$/;"	f
+NewV4	zero/go.uuid/generator.go	/^func (g *rfc4122Generator) NewV4() (UUID, error) {$/;"	f
+NewV4	zero/go.uuid/generator.go	/^func NewV4() (UUID, error) {$/;"	f
+NewV5	zero/go.uuid/generator.go	/^func (g *rfc4122Generator) NewV5(ns UUID, name string) UUID {$/;"	f
+NewV5	zero/go.uuid/generator.go	/^func NewV5(ns UUID, name string) UUID {$/;"	f
+Nil	zero/go.uuid/uuid.go	/^var Nil = UUID{}$/;"	v
+NullUUID	zero/go.uuid/sql.go	/^type NullUUID struct {$/;"	t
+Player	player.go	/^type Player struct {$/;"	t
+Read	zero/go.uuid/generator_test.go	/^func (r *faultyReader) Read(dest []byte) (int, error) {$/;"	f
+RegConnectHandler	zero/service.go	/^func (s *SocketService) RegConnectHandler(handler func(*Session)) {$/;"	f
+RegDisconnectHandler	zero/service.go	/^func (s *SocketService) RegDisconnectHandler(handler func(*Session, error)) {$/;"	f
+RegMessageHandler	zero/service.go	/^func (s *SocketService) RegMessageHandler(handler func(*Session, *Message)) {$/;"	f
+RemovePlayer	world.go	/^func (w *World) RemovePlayer(id string) {$/;"	f
+RequestDarts	define.go	/^const RequestDarts int32 = 9$/;"	c
+RequestDisappear	define.go	/^const RequestDisappear int32 = 7$/;"	c
+RequestJoin	define.go	/^const RequestJoin int32 = 1$/;"	c
+RequestMove	define.go	/^const RequestMove int32 = 3$/;"	c
+ResponseJoin	define.go	/^const ResponseJoin int32 = 2$/;"	c
+STInited	zero/def.go	/^	STInited$/;"	c
+STRunning	zero/def.go	/^	STRunning$/;"	c
+STStop	zero/def.go	/^	STStop$/;"	c
+STUnknown	zero/def.go	/^	STUnknown = iota$/;"	c
+Scan	zero/go.uuid/sql.go	/^func (u *NullUUID) Scan(src interface{}) error {$/;"	f
+Scan	zero/go.uuid/sql.go	/^func (u *UUID) Scan(src interface{}) error {$/;"	f
+SendMessage	zero/conn.go	/^func (c *Conn) SendMessage(msg *Message) error {$/;"	f
+Serv	zero/service.go	/^func (s *SocketService) Serv() {$/;"	f
+Session	zero/session.go	/^type Session struct {$/;"	t
+SetConn	zero/session.go	/^func (s *Session) SetConn(conn *Conn) {$/;"	f
+SetHeartBeat	zero/service.go	/^func (s *SocketService) SetHeartBeat(hbInterval time.Duration, hbTimeout time.Duration) error {$/;"	f
+SetSetting	zero/session.go	/^func (s *Session) SetSetting(key string, value interface{}) {$/;"	f
+SetVariant	zero/go.uuid/uuid.go	/^func (u *UUID) SetVariant(v byte) {$/;"	f
+SetVersion	zero/go.uuid/uuid.go	/^func (u *UUID) SetVersion(v byte) {$/;"	f
+Size	zero/go.uuid/uuid.go	/^const Size = 16$/;"	c
+SocketService	zero/service.go	/^type SocketService struct {$/;"	t
+Stop	zero/service.go	/^func (s *SocketService) Stop(reason string) {$/;"	f
+String	zero/go.uuid/uuid.go	/^func (u UUID) String() string {$/;"	f
+String	zero/message.go	/^func (msg *Message) String() string {$/;"	f
+TestBytes	zero/go.uuid/uuid_test.go	/^func (s *testSuite) TestBytes(c *C) {$/;"	f
+TestCodec	zero/codec_test.go	/^func TestCodec(t *testing.T) {$/;"	f
+TestEqual	zero/go.uuid/uuid_test.go	/^func (s *testSuite) TestEqual(c *C) {$/;"	f
+TestFromBytes	zero/go.uuid/codec_test.go	/^func (s *codecTestSuite) TestFromBytes(c *C) {$/;"	f
+TestFromBytesOrNil	zero/go.uuid/codec_test.go	/^func (s *codecTestSuite) TestFromBytesOrNil(c *C) {$/;"	f
+TestFromString	zero/go.uuid/codec_test.go	/^func (s *codecTestSuite) TestFromString(c *C) {$/;"	f
+TestFromStringInvalid	zero/go.uuid/codec_test.go	/^func (s *codecTestSuite) TestFromStringInvalid(c *C) {$/;"	f
+TestFromStringLong	zero/go.uuid/codec_test.go	/^func (s *codecTestSuite) TestFromStringLong(c *C) {$/;"	f
+TestFromStringOrNil	zero/go.uuid/codec_test.go	/^func (s *codecTestSuite) TestFromStringOrNil(c *C) {$/;"	f
+TestFromStringShort	zero/go.uuid/codec_test.go	/^func (s *codecTestSuite) TestFromStringShort(c *C) {$/;"	f
+TestMarshalBinary	zero/go.uuid/codec_test.go	/^func (s *codecTestSuite) TestMarshalBinary(c *C) {$/;"	f
+TestMarshalText	zero/go.uuid/codec_test.go	/^func (s *codecTestSuite) TestMarshalText(c *C) {$/;"	f
+TestMust	zero/go.uuid/uuid_test.go	/^func (s *testSuite) TestMust(c *C) {$/;"	f
+TestNewV1	zero/go.uuid/generator_test.go	/^func (s *genTestSuite) TestNewV1(c *C) {$/;"	f
+TestNewV1EpochStale	zero/go.uuid/generator_test.go	/^func (s *genTestSuite) TestNewV1EpochStale(c *C) {$/;"	f
+TestNewV1FaultyRand	zero/go.uuid/generator_test.go	/^func (s *genTestSuite) TestNewV1FaultyRand(c *C) {$/;"	f
+TestNewV1MissingNetInterfacesAndFaultyRand	zero/go.uuid/generator_test.go	/^func (s *genTestSuite) TestNewV1MissingNetInterfacesAndFaultyRand(c *C) {$/;"	f
+TestNewV1MissingNetworkInterfaces	zero/go.uuid/generator_test.go	/^func (s *genTestSuite) TestNewV1MissingNetworkInterfaces(c *C) {$/;"	f
+TestNewV2	zero/go.uuid/generator_test.go	/^func (s *genTestSuite) TestNewV2(c *C) {$/;"	f
+TestNewV2FaultyRand	zero/go.uuid/generator_test.go	/^func (s *genTestSuite) TestNewV2FaultyRand(c *C) {$/;"	f
+TestNewV3	zero/go.uuid/generator_test.go	/^func (s *genTestSuite) TestNewV3(c *C) {$/;"	f
+TestNewV4	zero/go.uuid/generator_test.go	/^func (s *genTestSuite) TestNewV4(c *C) {$/;"	f
+TestNewV4FaultyRand	zero/go.uuid/generator_test.go	/^func (s *genTestSuite) TestNewV4FaultyRand(c *C) {$/;"	f
+TestNewV4PartialRead	zero/go.uuid/generator_test.go	/^func (s *genTestSuite) TestNewV4PartialRead(c *C) {$/;"	f
+TestNewV5	zero/go.uuid/generator_test.go	/^func (s *genTestSuite) TestNewV5(c *C) {$/;"	f
+TestNullUUIDScanNil	zero/go.uuid/sql_test.go	/^func (s *sqlTestSuite) TestNullUUIDScanNil(c *C) {$/;"	f
+TestNullUUIDScanValid	zero/go.uuid/sql_test.go	/^func (s *sqlTestSuite) TestNullUUIDScanValid(c *C) {$/;"	f
+TestNullUUIDValueNil	zero/go.uuid/sql_test.go	/^func (s *sqlTestSuite) TestNullUUIDValueNil(c *C) {$/;"	f
+TestScanBinary	zero/go.uuid/sql_test.go	/^func (s *sqlTestSuite) TestScanBinary(c *C) {$/;"	f
+TestScanNil	zero/go.uuid/sql_test.go	/^func (s *sqlTestSuite) TestScanNil(c *C) {$/;"	f
+TestScanString	zero/go.uuid/sql_test.go	/^func (s *sqlTestSuite) TestScanString(c *C) {$/;"	f
+TestScanText	zero/go.uuid/sql_test.go	/^func (s *sqlTestSuite) TestScanText(c *C) {$/;"	f
+TestScanUnsupported	zero/go.uuid/sql_test.go	/^func (s *sqlTestSuite) TestScanUnsupported(c *C) {$/;"	f
+TestService	zero/service_test.go	/^func TestService(t *testing.T) {$/;"	f
+TestSetVariant	zero/go.uuid/uuid_test.go	/^func (s *testSuite) TestSetVariant(c *C) {$/;"	f
+TestSetVersion	zero/go.uuid/uuid_test.go	/^func (s *testSuite) TestSetVersion(c *C) {$/;"	f
+TestString	zero/go.uuid/uuid_test.go	/^func (s *testSuite) TestString(c *C) {$/;"	f
+TestUUID	zero/go.uuid/uuid_test.go	/^func TestUUID(t *testing.T) { TestingT(t) }$/;"	f
+TestUnmarshalBinary	zero/go.uuid/codec_test.go	/^func (s *codecTestSuite) TestUnmarshalBinary(c *C) {$/;"	f
+TestUnmarshalText	zero/go.uuid/codec_test.go	/^func (s *codecTestSuite) TestUnmarshalText(c *C) {$/;"	f
+TestValue	zero/go.uuid/sql_test.go	/^func (s *sqlTestSuite) TestValue(c *C) {$/;"	f
+TestValueNil	zero/go.uuid/sql_test.go	/^func (s *sqlTestSuite) TestValueNil(c *C) {$/;"	f
+TestVariant	zero/go.uuid/uuid_test.go	/^func (s *testSuite) TestVariant(c *C) {$/;"	f
+TestVersion	zero/go.uuid/uuid_test.go	/^func (s *testSuite) TestVersion(c *C) {$/;"	f
+ToJSON	player.go	/^func (p *Player) ToJSON() []byte {$/;"	f
+UUID	zero/go.uuid/uuid.go	/^type UUID [Size]byte$/;"	t
+Unicast	zero/service.go	/^func (s *SocketService) Unicast(sid string, msg *Message) {$/;"	f
+UnmarshalBinary	zero/go.uuid/codec.go	/^func (u *UUID) UnmarshalBinary(data []byte) (err error) {$/;"	f
+UnmarshalText	zero/go.uuid/codec.go	/^func (u *UUID) UnmarshalText(text []byte) (err error) {$/;"	f
+V1	zero/go.uuid/uuid.go	/^	V1$/;"	c
+V2	zero/go.uuid/uuid.go	/^	V2$/;"	c
+V3	zero/go.uuid/uuid.go	/^	V3$/;"	c
+V4	zero/go.uuid/uuid.go	/^	V4$/;"	c
+V5	zero/go.uuid/uuid.go	/^	V5$/;"	c
+Value	zero/go.uuid/sql.go	/^func (u NullUUID) Value() (driver.Value, error) {$/;"	f
+Value	zero/go.uuid/sql.go	/^func (u UUID) Value() (driver.Value, error) {$/;"	f
+Variant	zero/go.uuid/uuid.go	/^func (u UUID) Variant() byte {$/;"	f
+VariantFuture	zero/go.uuid/uuid.go	/^	VariantFuture$/;"	c
+VariantMicrosoft	zero/go.uuid/uuid.go	/^	VariantMicrosoft$/;"	c
+VariantNCS	zero/go.uuid/uuid.go	/^	VariantNCS byte = iota$/;"	c
+VariantRFC4122	zero/go.uuid/uuid.go	/^	VariantRFC4122$/;"	c
+Verify	zero/message.go	/^func (msg *Message) Verify() bool {$/;"	f
+Version	zero/go.uuid/uuid.go	/^func (u UUID) Version() byte {$/;"	f
+World	world.go	/^type World struct {$/;"	t
+_	zero/go.uuid/codec_test.go	/^var _ = Suite(&codecTestSuite{})$/;"	v
+_	zero/go.uuid/generator_test.go	/^var _ = Suite(&genTestSuite{})$/;"	v
+_	zero/go.uuid/sql_test.go	/^var _ = Suite(&sqlTestSuite{})$/;"	v
+_	zero/go.uuid/uuid.go	/^	_ byte = iota$/;"	c
+_	zero/go.uuid/uuid_test.go	/^var _ = Suite(&testSuite{})$/;"	v
+acceptHandler	zero/service.go	/^func (s *SocketService) acceptHandler(ctx context.Context) {$/;"	f
+byteGroups	zero/go.uuid/uuid.go	/^	byteGroups = []int{8, 4, 4, 4, 12}$/;"	v
+calcChecksum	zero/message.go	/^func (msg *Message) calcChecksum() uint32 {$/;"	f
+codecTestSuite	zero/go.uuid/codec_test.go	/^type codecTestSuite struct{}$/;"	t
+connectHandler	zero/service.go	/^func (s *SocketService) connectHandler(ctx context.Context, c net.Conn) {$/;"	f
+decodeBraced	zero/go.uuid/codec.go	/^func (u *UUID) decodeBraced(t []byte) (err error) {$/;"	f
+decodeCanonical	zero/go.uuid/codec.go	/^func (u *UUID) decodeCanonical(t []byte) (err error) {$/;"	f
+decodeHashLike	zero/go.uuid/codec.go	/^func (u *UUID) decodeHashLike(t []byte) (err error) {$/;"	f
+decodePlain	zero/go.uuid/codec.go	/^func (u *UUID) decodePlain(t []byte) (err error) {$/;"	f
+decodeURN	zero/go.uuid/codec.go	/^func (u *UUID) decodeURN(t []byte) (err error) {$/;"	f
+defaultHWAddrFunc	zero/go.uuid/generator.go	/^func defaultHWAddrFunc() (net.HardwareAddr, error) {$/;"	f
+epochFunc	zero/go.uuid/generator.go	/^type epochFunc func() time.Time$/;"	t
+epochStart	zero/go.uuid/generator.go	/^const epochStart = 122192928000000000$/;"	c
+faultyReader	zero/go.uuid/generator_test.go	/^type faultyReader struct {$/;"	t
+game	define.go	/^package game$/;"	p
+game	player.go	/^package game$/;"	p
+game	processor.go	/^package game$/;"	p
+game	world.go	/^package game$/;"	p
+genTestSuite	zero/go.uuid/generator_test.go	/^type genTestSuite struct{}$/;"	t
+getClockSequence	zero/go.uuid/generator.go	/^func (g *rfc4122Generator) getClockSequence() (uint64, uint16, error) {$/;"	f
+getEpoch	zero/go.uuid/generator.go	/^func (g *rfc4122Generator) getEpoch() uint64 {$/;"	f
+getHardwareAddr	zero/go.uuid/generator.go	/^func (g *rfc4122Generator) getHardwareAddr() ([]byte, error) {$/;"	f
+global	zero/go.uuid/generator.go	/^	global = newRFC4122Generator()$/;"	v
+hwAddrFunc	zero/go.uuid/generator.go	/^type hwAddrFunc func() (net.HardwareAddr, error)$/;"	t
+init	world.go	/^func init() {$/;"	f
+newFromHash	zero/go.uuid/generator.go	/^func newFromHash(h hash.Hash, ns UUID, name string) UUID {$/;"	f
+newRFC4122Generator	zero/go.uuid/generator.go	/^func newRFC4122Generator() Generator {$/;"	f
+posixGID	zero/go.uuid/generator.go	/^	posixGID = uint32(os.Getgid())$/;"	v
+posixUID	zero/go.uuid/generator.go	/^	posixUID = uint32(os.Getuid())$/;"	v
+readCoroutine	zero/conn.go	/^func (c *Conn) readCoroutine(ctx context.Context) {$/;"	f
+rfc4122Generator	zero/go.uuid/generator.go	/^type rfc4122Generator struct {$/;"	t
+sink	zero/go.uuid/codec_test.go	/^var sink string$/;"	v
+sqlTestSuite	zero/go.uuid/sql_test.go	/^type sqlTestSuite struct{}$/;"	t
+testSuite	zero/go.uuid/uuid_test.go	/^type testSuite struct{}$/;"	t
+urnPrefix	zero/go.uuid/uuid.go	/^	urnPrefix  = []byte("urn:uuid:")$/;"	v
+uuid	zero/go.uuid/codec.go	/^package uuid$/;"	p
+uuid	zero/go.uuid/codec_test.go	/^package uuid$/;"	p
+uuid	zero/go.uuid/generator.go	/^package uuid$/;"	p
+uuid	zero/go.uuid/generator_test.go	/^package uuid$/;"	p
+uuid	zero/go.uuid/sql.go	/^package uuid$/;"	p
+uuid	zero/go.uuid/sql_test.go	/^package uuid$/;"	p
+uuid	zero/go.uuid/uuid.go	/^package uuid$/;"	p
+uuid	zero/go.uuid/uuid_test.go	/^package uuid$/;"	p
+world	world.go	/^var world *World$/;"	v
+writeCoroutine	zero/conn.go	/^func (c *Conn) writeCoroutine(ctx context.Context) {$/;"	f
+zero	zero/codec.go	/^package zero$/;"	p
+zero	zero/codec_test.go	/^package zero$/;"	p
+zero	zero/conn.go	/^package zero$/;"	p
+zero	zero/def.go	/^package zero$/;"	p
+zero	zero/message.go	/^package zero$/;"	p
+zero	zero/service.go	/^package zero$/;"	p
+zero	zero/service_test.go	/^package zero$/;"	p
+zero	zero/session.go	/^package zero$/;"	p
