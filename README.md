@@ -5,4 +5,6 @@
 为期 1 个月，后端使用 zero 库，实现简单的数据传输。前端使用 unity-3d 来进行游戏的实现，最后获得第一名的游戏作品。
 
 ![操作界面](https://github.com/nercoeus/ninja/blob/master/%E6%93%8D%E4%BD%9C%E7%95%8C%E9%9D%A2.PNG)
-![演示视频](https://github.com/nercoeus/ninja/blob/master/%E4%B8%8D%E9%80%9D%E4%B9%8B%E5%BD%B1.mp4)
+
+
+# [演示视频见目录](https://github.com/nercoeus/ninja/blob/master/%E4%B8%8D%E9%80%9D%E4%B9%8B%E5%BD%B1.mp4)
