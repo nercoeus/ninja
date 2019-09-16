@@ -1,0 +1,276 @@
+fileFormatVersion: 2
+guid: 05ba469cdef786e4184b534e4cb778ce
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bip001 Footsteps
+    100002: Bip001 HeadNub
+    100004: Bip001 L Finger0Nub
+    100006: Bip001 L Finger1Nub
+    100008: Bip001 L Finger2Nub
+    100010: Bip001 L Finger3Nub
+    100012: Bip001 L Finger4Nub
+    100014: Bip001 L Toe0Nub
+    100016: Bip001 R Finger0Nub
+    100018: Bip001 R Finger1Nub
+    100020: Bip001 R Finger2Nub
+    100022: Bip001 R Finger3Nub
+    100024: Bip001 R Finger4Nub
+    100026: Bip001 R Toe0Nub
+    100028: Chest
+    100030: Eye_L
+    100032: Eye_R
+    100034: Eyelash
+    100036: //RootNode
+    100038: Head
+    100040: Hips
+    100042: LeftArm
+    100044: LeftArm_Twist
+    100046: LeftFoot
+    100048: LeftForeArm
+    100050: LeftForeArm_Twist
+    100052: LeftHand
+    100054: LeftIndex1
+    100056: LeftIndex2
+    100058: LeftIndex3
+    100060: LeftLeg
+    100062: LeftLeg_Twist
+    100064: LeftMiddle1
+    100066: LeftMiddle2
+    100068: LeftMiddle3
+    100070: LeftPink1
+    100072: LeftPink2
+    100074: LeftPink3
+    100076: LeftRing1
+    100078: LeftRing2
+    100080: LeftRing3
+    100082: LeftShoulder
+    100084: LeftThumb1
+    100086: LeftThumb2
+    100088: LeftThumb3
+    100090: LeftToe
+    100092: LeftUpLeg
+    100094: LeftUpLeg_Twist
+    100096: Neck
+    100098: Ninja_M
+    100100: Pelvis
+    100102: RightArm
+    100104: RightArm_Twist
+    100106: RightFoot
+    100108: RightForeArm
+    100110: RightForeArm_Twist
+    100112: RightHand
+    100114: RightIndex1
+    100116: RightIndex2
+    100118: RightIndex3
+    100120: RightLeg
+    100122: RightLeg_Twist
+    100124: RightMiddle1
+    100126: RightMiddle2
+    100128: RightMiddle3
+    100130: RightPinky1
+    100132: RightPinky2
+    100134: RightPinky3
+    100136: RightRing1
+    100138: RightRing2
+    100140: RightRing3
+    100142: RightShoulder
+    100144: RightThumb1
+    100146: RightThumb2
+    100148: RightThumb3
+    100150: RightToe
+    100152: RightUpLeg
+    100154: RightUpLeg_Twist
+    100156: Spine
+    100158: Sword_Back
+    100160: Sword_Hand
+    100162: Sword_Hand_Bone
+    100164: Wood
+    400000: Bip001 Footsteps
+    400002: Bip001 HeadNub
+    400004: Bip001 L Finger0Nub
+    400006: Bip001 L Finger1Nub
+    400008: Bip001 L Finger2Nub
+    400010: Bip001 L Finger3Nub
+    400012: Bip001 L Finger4Nub
+    400014: Bip001 L Toe0Nub
+    400016: Bip001 R Finger0Nub
+    400018: Bip001 R Finger1Nub
+    400020: Bip001 R Finger2Nub
+    400022: Bip001 R Finger3Nub
+    400024: Bip001 R Finger4Nub
+    400026: Bip001 R Toe0Nub
+    400028: Chest
+    400030: Eye_L
+    400032: Eye_R
+    400034: Eyelash
+    400036: //RootNode
+    400038: Head
+    400040: Hips
+    400042: LeftArm
+    400044: LeftArm_Twist
+    400046: LeftFoot
+    400048: LeftForeArm
+    400050: LeftForeArm_Twist
+    400052: LeftHand
+    400054: LeftIndex1
+    400056: LeftIndex2
+    400058: LeftIndex3
+    400060: LeftLeg
+    400062: LeftLeg_Twist
+    400064: LeftMiddle1
+    400066: LeftMiddle2
+    400068: LeftMiddle3
+    400070: LeftPink1
+    400072: LeftPink2
+    400074: LeftPink3
+    400076: LeftRing1
+    400078: LeftRing2
+    400080: LeftRing3
+    400082: LeftShoulder
+    400084: LeftThumb1
+    400086: LeftThumb2
+    400088: LeftThumb3
+    400090: LeftToe
+    400092: LeftUpLeg
+    400094: LeftUpLeg_Twist
+    400096: Neck
+    400098: Ninja_M
+    400100: Pelvis
+    400102: RightArm
+    400104: RightArm_Twist
+    400106: RightFoot
+    400108: RightForeArm
+    400110: RightForeArm_Twist
+    400112: RightHand
+    400114: RightIndex1
+    400116: RightIndex2
+    400118: RightIndex3
+    400120: RightLeg
+    400122: RightLeg_Twist
+    400124: RightMiddle1
+    400126: RightMiddle2
+    400128: RightMiddle3
+    400130: RightPinky1
+    400132: RightPinky2
+    400134: RightPinky3
+    400136: RightRing1
+    400138: RightRing2
+    400140: RightRing3
+    400142: RightShoulder
+    400144: RightThumb1
+    400146: RightThumb2
+    400148: RightThumb3
+    400150: RightToe
+    400152: RightUpLeg
+    400154: RightUpLeg_Twist
+    400156: Spine
+    400158: Sword_Back
+    400160: Sword_Hand
+    400162: Sword_Hand_Bone
+    400164: Wood
+    2100000: M_Nin_01
+    2100002: M_Nin_02
+    2100004: Eyelash
+    4300000: Ninja_M
+    4300002: Sword_Hand
+    4300004: Eyelash
+    4300006: Sword_Back
+    4300008: Wood
+    4300010: Eye_L
+    4300012: Eye_R
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Eye_L
+    13700002: Eye_R
+    13700004: Eyelash
+    13700006: Ninja_M
+    13700008: Sword_Back
+    13700010: Sword_Hand
+    13700012: Wood
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
