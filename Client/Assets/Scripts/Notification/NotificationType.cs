@@ -1,0 +1,35 @@
+﻿public enum NotificationType
+{
+    Network_OnConnected,
+    Network_OnDisconnected,
+    Network_OnResponseJoin,
+    Network_OnBroadcastMove,
+    Network_OnBroadcastJoin,
+    Network_OnBroadcastLeave,
+    Network_OnBroadcastHide,
+    Network_OnBroadcastMeleeDamage,
+    Operate_MapPosition,
+    Request_Hide,
+    Request_MeleeDamage,
+    Request_Darts,
+    Network_OnBroadcastDarts,
+    Request_Wait,
+    Network_OnBroadcastWait,
+    Request_Blink,
+    Network_OnBroadcastBlink,
+    Network_OnResponseDeath,
+    Network_OnBroadcastDeath,
+    Network_OnRequestResurgence,
+    Network_OnBroadcastResurgence,
+    Request_ShengLong,
+    Network_OnBroadcastShengLong,
+
+    Request_CaoZhui,
+    Networt_OnBroadcastCaoZhui,
+    Networt_OnBroadcastCountDown,
+    Networt_OnRequestWinner,
+    Networt_OnBroadcastWinner,
+
+    Networt_OnBroadcastWaitBegin,
+}
+
