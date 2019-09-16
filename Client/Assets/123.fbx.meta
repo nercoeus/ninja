@@ -1,0 +1,285 @@
+fileFormatVersion: 2
+guid: 3c27f3439400c524fb82daf9bc73cccf
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Grass_A_1
+    100004: Grass_B_1
+    100006: Grass_C_1
+    100008: Grass_D_1
+    100010: Grass_H_1
+    100012: Grass_I_1
+    100014: Stone&Cliff_A
+    100016: Stone&Cliff_B
+    100018: Stone&Cliff_B1
+    100020: Stone&Cliff_B2
+    100022: Stone&Cliff_C
+    100024: Stone&Cliff_C1
+    100026: Stone&Cliff_D
+    100028: Stone&Cliff_E
+    100030: Timber_A
+    100032: Timber_B
+    100034: Timber_C
+    100036: Timber_D
+    100038: Timber_E
+    100040: Tower_A
+    100042: Tower_A1
+    100044: Tower_A2
+    100046: Tower_A3
+    100048: Tree_A_1
+    100050: Tree_A_Trunk
+    100052: Tree_B_1
+    100054: Tree_B_Trunk
+    100056: Tree_C_1
+    100058: Tree_C_Trunk
+    100060: Tree_D_1
+    100062: Tree_D_Trunk
+    100064: Tree_D_Trunk1
+    100066: Tree_E_1
+    400000: //RootNode
+    400002: Grass_A_1
+    400004: Grass_B_1
+    400006: Grass_C_1
+    400008: Grass_D_1
+    400010: Grass_H_1
+    400012: Grass_I_1
+    400014: Stone&Cliff_A
+    400016: Stone&Cliff_B
+    400018: Stone&Cliff_B1
+    400020: Stone&Cliff_B2
+    400022: Stone&Cliff_C
+    400024: Stone&Cliff_C1
+    400026: Stone&Cliff_D
+    400028: Stone&Cliff_E
+    400030: Timber_A
+    400032: Timber_B
+    400034: Timber_C
+    400036: Timber_D
+    400038: Timber_E
+    400040: Tower_A
+    400042: Tower_A1
+    400044: Tower_A2
+    400046: Tower_A3
+    400048: Tree_A_1
+    400050: Tree_A_Trunk
+    400052: Tree_B_1
+    400054: Tree_B_Trunk
+    400056: Tree_C_1
+    400058: Tree_C_Trunk
+    400060: Tree_D_1
+    400062: Tree_D_Trunk
+    400064: Tree_D_Trunk1
+    400066: Tree_E_1
+    2100000: 20 2- Default
+    2100002: 'Material #3298'
+    2100004: 'Material #3299'
+    2100006: 'Material #3300'
+    2100008: 'Material #3301'
+    2100010: 'Material #3304'
+    2100012: 'Material #3305'
+    2100014: 'Material #3754'
+    2100016: 'Material #3755'
+    2100018: 'Material #3756'
+    2100020: 'Material #3757'
+    2100022: 'Material #3758'
+    2100024: 23 - Default
+    2100026: 23 - Default1
+    2100028: 23 - Default2
+    2100030: 23 - Default3
+    2100032: 23 - Default4
+    2100034: 'Material #3759'
+    2100036: 19 - Default
+    2100038: 'Material #3760'
+    2100040: 19 - Default1
+    2100042: 'Material #3761'
+    2100044: 19 - Default2
+    2100046: 'Material #3762'
+    2100048: 19 - Default3
+    2100050: 'Material #3763'
+    2300000: Grass_A_1
+    2300002: Grass_B_1
+    2300004: Grass_C_1
+    2300006: Grass_D_1
+    2300008: Grass_H_1
+    2300010: Grass_I_1
+    2300012: Stone&Cliff_A
+    2300014: Stone&Cliff_B
+    2300016: Stone&Cliff_B1
+    2300018: Stone&Cliff_B2
+    2300020: Stone&Cliff_C
+    2300022: Stone&Cliff_C1
+    2300024: Stone&Cliff_D
+    2300026: Stone&Cliff_E
+    2300028: Timber_A
+    2300030: Timber_B
+    2300032: Timber_C
+    2300034: Timber_D
+    2300036: Timber_E
+    2300038: Tower_A
+    2300040: Tower_A1
+    2300042: Tower_A2
+    2300044: Tower_A3
+    2300046: Tree_A_1
+    2300048: Tree_A_Trunk
+    2300050: Tree_B_1
+    2300052: Tree_B_Trunk
+    2300054: Tree_C_1
+    2300056: Tree_C_Trunk
+    2300058: Tree_D_1
+    2300060: Tree_D_Trunk
+    2300062: Tree_D_Trunk1
+    2300064: Tree_E_1
+    3300000: Grass_A_1
+    3300002: Grass_B_1
+    3300004: Grass_C_1
+    3300006: Grass_D_1
+    3300008: Grass_H_1
+    3300010: Grass_I_1
+    3300012: Stone&Cliff_A
+    3300014: Stone&Cliff_B
+    3300016: Stone&Cliff_B1
+    3300018: Stone&Cliff_B2
+    3300020: Stone&Cliff_C
+    3300022: Stone&Cliff_C1
+    3300024: Stone&Cliff_D
+    3300026: Stone&Cliff_E
+    3300028: Timber_A
+    3300030: Timber_B
+    3300032: Timber_C
+    3300034: Timber_D
+    3300036: Timber_E
+    3300038: Tower_A
+    3300040: Tower_A1
+    3300042: Tower_A2
+    3300044: Tower_A3
+    3300046: Tree_A_1
+    3300048: Tree_A_Trunk
+    3300050: Tree_B_1
+    3300052: Tree_B_Trunk
+    3300054: Tree_C_1
+    3300056: Tree_C_Trunk
+    3300058: Tree_D_1
+    3300060: Tree_D_Trunk
+    3300062: Tree_D_Trunk1
+    3300064: Tree_E_1
+    4300000: Tower_A
+    4300002: Grass_A_1
+    4300004: Grass_B_1
+    4300006: Grass_C_1
+    4300008: Grass_D_1
+    4300010: Grass_H_1
+    4300012: Grass_I_1
+    4300014: Stone&Cliff_A
+    4300016: Stone&Cliff_B
+    4300018: Stone&Cliff_C
+    4300020: Stone&Cliff_D
+    4300022: Stone&Cliff_E
+    4300024: Timber_A
+    4300026: Timber_B
+    4300028: Timber_C
+    4300030: Timber_D
+    4300032: Timber_E
+    4300034: Tree_A_1
+    4300036: Tree_A_Trunk
+    4300038: Tree_B_1
+    4300040: Tree_B_Trunk
+    4300042: Tree_C_1
+    4300044: Tree_C_Trunk
+    4300046: Tree_D_1
+    4300048: Tree_D_Trunk
+    4300050: Tree_E_1
+    4300052: Tree_D_Trunk1
+    4300054: Tower_A1
+    4300056: Tower_A2
+    4300058: Tower_A3
+    4300060: Stone&Cliff_B1
+    4300062: Stone&Cliff_B2
+    4300064: Stone&Cliff_C1
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
